@@ -1,8 +1,8 @@
 # Maskrcnn
 For testing performance on mask rcnn. just run test.py (if not missing logs folder)
-training.py is used for training. The whole training time is about 2 hours.
+training.py is used for training. The whole training time is about 2 hours. 
 The mrcnn folder contains the configuration, model and utils files. model.py is for building CNN architecture. configuration.py is for setting up parameters. utils.py is for several image processing calculations, such as calculate iou, overlapping region, non max suppression and so on. (It also needs to notice here the files in this folder, I partially rewrote and edited based on the open source frame work from the implementation by matterport and the mask rcnn paper by Kaiming He. And I keep their name in this folder's  python file.)
-The .h5 file in logs/ballon folder is the trained CNN weight used for testing. If you are using github to open this, probably there is no logs folder since the github would not let users to upload the file larger than 200MB. You can email me to get this. 
+The .h5 file in logs folder is the trained CNN weight used for testing. If you are using github to open this, probably there is no logs folder since the github would not let users to upload the file larger than 200MB. You can email me to get these CNN traning weights. qifan.wu@tufts.edu
 The dataset folder contains the training and testing tools data.
 Images folder contains some new images for seeing the performance. 
 
