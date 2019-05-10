@@ -45,6 +45,7 @@ def get_mask_center(mask):
         print(endpoint1)
         print(endpoint2)
         alpha = math.atan2((center[1]-endpoint1[1]), (endpoint1[0]-center[0]))
+        alpha = 180*alpha/math.pi
 
         store = []
         print(np.any(mask, axis=0).shape)
