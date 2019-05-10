@@ -1,9 +1,9 @@
 # coding=utf8
 """
-    Created on Sat Apr 26 10:12:34 2019
-    
-    @author: wqf
-    """
+Created on Sat Apr 26 10:12:34 2019
+
+@author: wqf
+"""
 from math import *
 import LeArm
 import time
