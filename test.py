@@ -55,6 +55,7 @@ def get_mask_center(mask):
         print(endpoint1)
         print(endpoint2)
         alpha = math.atan2((center[1]-endpoint1[1]), (endpoint1[0]-center[0]))
+        alpha = 180*alpha/math.pi
 
 
         store = []
@@ -122,5 +123,5 @@ print(r['masks'])
 print(r['masks'].shape)
 visualize.display_instances(image, r['rois'], r['masks'], r['class_ids'],  class_names, r['scores'])
 
-#x,y,alpha = get_mask_center(r['masks'])
-#print(x,y,alpha)
+x,y,alpha = get_mask_center(r['masks'])
+print('x:',x,'y:',y,'angle:', alpha)
