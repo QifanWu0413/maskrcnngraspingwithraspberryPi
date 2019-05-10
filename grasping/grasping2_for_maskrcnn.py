@@ -2,10 +2,10 @@
 # -*- coding: UTF-8 -*-
 # grasping
 """
-    Created on Sat Apr 29 11:44:53 2019
-    
-    @author: wqf
-    """
+Created on Sat Apr 29 11:44:53 2019
+
+@author: wqf
+"""
 import cv2
 import numpy as np
 import time
